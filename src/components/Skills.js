@@ -33,6 +33,30 @@ export default function Skills() {
       ),
     },
     {
+      name: 'Java (OOP & Game Dev)',
+      icon: (
+        <svg className="w-6 h-6 fill-red-500" viewBox="0 0 24 24">
+          <path d="M4.228 16.59s-1.242.723-1.921 1.051c-1.018.497-1.121.848-.198 1.154 1.554.512 6.134 1.026 10.155 1.026 4.908 0 8.683-.807 9.807-1.512.448-.282.164-.633-.298-.823-.842-.345-2.079-.724-2.079-.724.819 1.054-1.932 1.761-5.187 1.842-3.83.094-8.083-.341-10.279-2.014zm-1.868 2.66s-.68.492-1.077.729c-.611.365-.705.626-.134.851 1.063.418 4.225.808 6.988.808 3.376 0 5.975-.591 6.749-1.108.307-.207.113-.464-.205-.604-.579-.253-1.428-.532-1.428-.532.563.772-1.328 1.291-3.568 1.35-2.636.069-5.561-.25-7.325-1.494zm1.884-6.077s-1.408 1.076-2.181 1.565c-1.155.731-1.272 1.249-.225 1.7 1.763.757 6.96 1.513 11.522 1.513 5.57 0 9.851-1.19 11.126-2.228.509-.415.186-.933-.338-1.213-.956-.508-2.358-1.067-2.358-1.067.929 1.553-2.192 2.595-5.885 2.714-4.346.139-9.172-.503-11.661-2.984zm11.239-11.411s.689 1.713-1.82 3.633c-1.782 1.363-2.738 2.378-2.616 3.638.196 2.015 3.328 1.638 2.661 4.582-.601 2.651-3.791 3.513-5.263 3.998-.598.197-.872-.089-.661-.417.818-1.275 2.196-2.052 2.196-3.238 0-1.495-2.836-2.23-2.387-4.484.441-2.203 2.871-3.136 3.829-4.37 1.156-1.49 1.082-2.33 1.082-2.33l.983-.012z"/>
+        </svg>
+      ),
+    },
+    {
+      name: 'C Programming',
+      icon: (
+        <svg className="w-6 h-6 fill-blue-600" viewBox="0 0 24 24">
+          <path d="M11.99 0C5.37 0 0 5.37 0 12s5.37 12 11.99 12C18.63 24 24 18.63 24 12S18.63 0 11.99 0zm4.84 16.94c-1.3.82-2.88 1.28-4.54 1.28-4.41 0-7.99-3.58-7.99-7.99s3.58-7.99 7.99-7.99c1.66 0 3.24.46 4.54 1.28l-1.61 2.58c-.85-.52-1.85-.82-2.93-.82-2.99 0-5.41 2.42-5.41 5.41s2.42 5.41 5.41 5.41c1.08 0 2.08-.3 2.93-.82l1.61 2.58z"/>
+        </svg>
+      ),
+    },
+    {
+      name: 'Mobile App Development',
+      icon: (
+        <svg className="w-6 h-6 fill-purple-400" viewBox="0 0 24 24">
+          <path d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z"/>
+        </svg>
+      ),
+    },
+    {
       name: 'Git & GitHub',
       icon: (
         <svg className="w-6 h-6 fill-red-500" viewBox="0 0 24 24">
@@ -41,18 +65,10 @@ export default function Skills() {
       ),
     },
     {
-      name: 'MySQL / PostgreSQL',
+      name: 'MySQL / Database',
       icon: (
         <svg className="w-6 h-6 fill-blue-500" viewBox="0 0 24 24">
           <path d="M12 3C6.477 3 2 4.79 2 7v10c0 2.21 4.477 4 10 4s10-1.79 10-4V7c0-2.21-4.477-4-10-4zm0 2c4.418 0 8 1.343 8 3s-3.582 3-8 3-8-1.343-8-3 3.582-3 8-3zm0 5c4.418 0 8 1.343 8 3v1.5c0 1.657-3.582 3-8 3s-8-1.343-8-3V10c0-1.657 3.582-3 8-3zm0 5c4.418 0 8 1.343 8 3v1.5c0 1.657-3.582 3-8 3s-8-1.343-8-3V15c0-1.657 3.582-3 8-3z"/>
-        </svg>
-      ),
-    },
-    {
-      name: 'Node.js Fundamentals',
-      icon: (
-        <svg className="w-6 h-6 fill-green-500" viewBox="0 0 24 24">
-          <path d="M12 2L2 7.5v9L12 22l10-5.5v-9L12 2zm0 2.31l7.32 4.02-3.32 1.83-4-2.21V4.31zm-1 .01v3.63L7 10.16 3.68 8.33 11 4.32zM3 9.87l3.5 1.93v4.18L3 14.05V9.87zm8 10.11l-7-3.85v-3.79l7 3.86v3.78zm1 0v-3.78l7-3.86v3.79l-7 3.85zm8-5.93l-3.5 1.93v-4.18l3.5-1.93v4.18z"/>
         </svg>
       ),
     },
@@ -74,12 +90,12 @@ export default function Skills() {
           Skills & Technologies
         </h2>
         <p className="text-slate-600 dark:text-slate-400 text-sm mt-1">
-          Technologies, tools, and technical competencies I work with.
+          Programming languages, frameworks, and tools I work with.
         </p>
       </div>
 
       {/* Centered Grid with Icons */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 max-w-3xl mx-auto w-full">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 max-w-4xl mx-auto w-full">
         {skills.map((skill, index) => (
           <div
             key={index}
@@ -88,7 +104,7 @@ export default function Skills() {
             <div className="p-2 rounded-lg bg-slate-50 dark:bg-slate-800 group-hover:scale-110 transition-transform">
               {skill.icon}
             </div>
-            <span className="text-sm">{skill.name}</span>
+            <span className="text-xs sm:text-sm font-semibold">{skill.name}</span>
           </div>
         ))}
       </div>

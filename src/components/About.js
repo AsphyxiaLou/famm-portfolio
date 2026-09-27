@@ -55,7 +55,7 @@ export default function About() {
       {/* Main Content Box */}
       <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-8 shadow-sm max-w-3xl mx-auto text-center space-y-6">
         <p className="text-slate-600 dark:text-slate-300 leading-relaxed text-lg">
-          "I am an Information Technology student specializing in Mobile Application Development and UI/UX design. I focus on building practical, visually appealing, and user-centric applications that solve real-world problems. With hands-on experience across mobile, web, and cloud-based systems, I am eager to contribute my skills to an OJT position in software or UI/UX development."
+          "I am an Information Technology student specializing in Mobile Application Development and UI/UX design. I focus on building practical, visually appealing, and user-centric applications that solve real-world problems. With hands-on experience across mobile, web, and cloud-based systems, I am eager to contribute my skills in software or UI/UX development."
         </p>
 
         {/* Clickable Title Badge */}
