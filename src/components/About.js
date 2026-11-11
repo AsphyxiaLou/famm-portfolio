@@ -24,7 +24,7 @@ export default function About() {
       title: 'Wadhwani Pitching Event Recognition',
       description: 'Certificate of Recognition in Start-up Pitching Event',
       issuer: 'Wadhwani Foundation',
-      image: '/wadwhani.jpg',
+      image: '/Wadwhani.jpg',
     },
     {
       title: 'Most Marketable Start-up Award',
