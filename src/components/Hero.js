@@ -46,7 +46,7 @@ export default function Hero() {
             Get In Touch <ArrowRight className="w-5 h-5" />
           </a>
           <a
-            href="/resume.pdf" // Placeholder path for resume
+            href="/Resume.pdf" // Placeholder path for resume
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2.5 px-7 py-3 rounded-xl border-2 border-slate-300 dark:border-slate-700 text-slate-800 dark:text-slate-100 font-medium hover:bg-slate-100 dark:hover:bg-slate-800 transition-all hover:border-slate-400 dark:hover:border-slate-600"
